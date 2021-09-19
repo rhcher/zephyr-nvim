@@ -276,6 +276,9 @@ function zephyr.load_plugin_syntax()
     TelescopeSelection = {fg=zephyr.yellow,bg=zephyr.bg_highlight,style= 'bold'};
     TelescopeSelectionCaret = {fg=zephyr.yellow};
     TelescopeMultiSelection = {fg=zephyr.teal};
+
+    MatchParen = {fg="#FFFD84"};
+    MatchWord = {style='italic'};
   }
   return plugin_syntax
 end
