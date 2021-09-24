@@ -279,6 +279,10 @@ function zephyr.load_plugin_syntax()
 
     MatchParen = {fg="#FFFD84"};
     MatchWord = {style='italic'};
+
+    CmpItemAbbr = {fg=zephyr.grey};
+    CmpItemAbbrDeprecated = {fg=zephyr.base6,style='strikethrough'};
+    CmpItemAbbrMatchFuzzy = {fg=zephyr.dark_green};
   }
   return plugin_syntax
 end
