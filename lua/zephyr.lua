@@ -273,11 +273,11 @@ function zephyr.load_plugin_syntax()
     TelescopeBorder = {fg=zephyr.teal};
     TelescopePromptBorder = {fg=zephyr.blue};
     TelescopeMatching = {fg=zephyr.teal};
-    TelescopeSelection = {fg=zephyr.yellow,bg=zephyr.bg_highlight,style= 'bold'};
+    TelescopeSelection = {fg=zephyr.yellow,bg=zephyr.bg_highlight,style='bold'};
     TelescopeSelectionCaret = {fg=zephyr.yellow};
     TelescopeMultiSelection = {fg=zephyr.teal};
 
-    MatchParen = {fg="#FFFD84"};
+    MatchParen = {fg='#FFFD84'};
     MatchWord = {style='italic'};
 
     CmpItemAbbr = {fg=zephyr.grey};
