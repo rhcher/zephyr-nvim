@@ -278,11 +278,12 @@ function zephyr.load_plugin_syntax()
     TelescopeMultiSelection = {fg=zephyr.teal};
 
     MatchParen = {fg='#FFFD84'};
-    MatchWord = {style='italic'};
+    MatchWord = {style='bold'};
 
     CmpItemAbbr = {fg=zephyr.grey};
     CmpItemAbbrDeprecated = {fg=zephyr.base6,style='strikethrough'};
     CmpItemAbbrMatchFuzzy = {fg=zephyr.dark_green};
+    CmpItemMenu = {fg=zephyr.base6};
   }
   return plugin_syntax
 end
